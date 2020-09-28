@@ -22,4 +22,5 @@ def correct_cap(word):
 
 
 if __name__ == "__main__":
-    s = input('> ')
+    word = input('> ')
+    print(correct_cap(word))
