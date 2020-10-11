@@ -19,7 +19,6 @@ def jewels_and_stone(jewels: str, stones: str) -> int:
         else:
             stone_map[stone] = 1
     res = 0
-
     for jewel in set(jewels):
         if jewel in stone_map:
             res += stone_map[jewel]
