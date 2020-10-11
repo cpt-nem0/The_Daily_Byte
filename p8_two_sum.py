@@ -15,8 +15,9 @@ def twoSum(nums: List, k: int) -> bool:
     tracked_num = {}
     for i, n in enumerate(nums):
         if k-n in tracked_num:
-            return {'val1': k-n, 'index1': tracked_num[k-n], 'val2': n, 'index2': i}
+            return True
         tracked_num[n] = i
+    return False
 
 
 if __name__ == "__main__":
