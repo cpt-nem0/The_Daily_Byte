@@ -37,3 +37,15 @@ if __name__ == "__main__":
     print(valid_anagram(s="cat", t="tac"))
     print(valid_anagram(s="cat", t="tac"))
     print(valid_anagram(s="program", t="function"))
+
+
+# alternative
+
+# from collections import defaultdict
+# tracker = defaultdict(int)
+# for c in t:
+#     tracker[c] += 1
+# for c in s:
+#     tracker[c] -= 1
+
+# return all(res == 0 for res in tracker.values())
