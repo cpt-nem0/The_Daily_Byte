@@ -33,7 +33,7 @@ if __name__ == "__main__":
     print(first_unique("developer"))
 
 
-# Brute Force approach
+# Alternative
 
 # checked = []
 # for i, c in enumerate(s):
