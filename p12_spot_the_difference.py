@@ -34,3 +34,14 @@ if __name__ == "__main__":
     print(spotDifference(s="foobar", t="barfoot"))
     print(spotDifference(s="ide", t="idea"))
     print(spotDifference(s="coding", t="ingcod"))
+
+# Alternatively (Bit Manipulation)
+
+# if len(s) == len(t):
+#     return ''
+# ch = 0
+# f = s+t
+# for c in f:
+#     ch ^= ord(c)
+
+# return chr(ch)
